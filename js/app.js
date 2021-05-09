@@ -3,38 +3,59 @@
   let admin, name;
   name = "Джон";
   admin = name;
-  alert(admin);
+  console.log(admin);
 }
 // 2.4 task 2
 {
   let planetName = "Земля";
+  console.log(planetName);
   let userName = "user1";
+  console.log(userName);
 }
 // 2.4 task 3
 {
   const BIRTHDAY = "18.04.1982";
-  const AGE = someCode(BIRTHDAY);
+  console.log(BIRTHDAY);
+  // const AGE = someCode(BIRTHDAY);
+  // console.log(AGE);
 }
 // 2.5 task 1
 {
   let name = "Ilya";
-  alert(`hello ${1}`);
-  alert(`hello ${"name"}`);
-  alert(`hello ${name}`);
+  console.log(`hello ${1}`);
+  console.log(`hello ${"name"}`);
+  console.log(`hello ${name}`);
 }
 // 2.8 task 1
 {
   let a = 1,
     b = 1;
-  alert(++a);
-  alert(b++);
-  alert(a);
-  alert(b);
-}
-{
-  // 2.8 task 2
-  let a = 2;
   console.log(a);
+  console.log(b);
+  console.log((c = ++a));
+  console.log((d = b++));
+}
+// 2.8 task 2
+{
+  let a = 2;
   let x = 1 + (a *= 2);
   console.log(x);
+}
+// 2.8 task 3
+{
+console.log("" + 1 + 0)
+console.log("" - 1 + 0)
+console.log(true + false)
+console.log(6 / "3")
+console.log("2" * "3")
+console.log(4 + 5 + "px")
+console.log("$" + 4 + 5)
+console.log("4" - 2)
+console.log("4px" - 2)
+console.log(7 / 0)
+console.log("  -9  " + 5)
+console.log("  -9  " - 5)
+console.log(null + 1)
+console.log(undefined + 1)
+console.log(" \t \n" - 2)
 }
