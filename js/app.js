@@ -65,3 +65,16 @@
   let b = prompt("Второе число?", 2);
   console.log(Number(a) + Number(b));
 }
+// home task 1
+let answer = prompt("Павлик дома?", "Да");
+if (answer === "Да") {
+  alert("Решать задачи");
+} else {
+  alert("Звонить Марине");
+  let answer = prompt("Марина дома?", "Да");
+  if (answer === "Да?") {
+    alert("Готовить реферат");
+  } else {
+    alert("Писать сочинение");
+  }
+}
